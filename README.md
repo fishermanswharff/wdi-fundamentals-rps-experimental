@@ -1,6 +1,6 @@
 ![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
 
-# Javascript Assignment Name (Ruby String Lab)
+# Javascript Assignment Name
 
 ## Objectives
 
@@ -16,10 +16,13 @@ Include explict step-by-step instructions about the goals of the assignment, and
 
 Make sure to wrap section of code in appropriate markdown like `ls -al`, and denote the language as below for longer sections:
 
-```ruby
-x = 2
-y = 3
-puts x + y
+```javascript
+function(){
+  var x = 2
+  var y = 3
+  return x + y
+};
+
 ```
 
 ## Bonus (Optional Section)
