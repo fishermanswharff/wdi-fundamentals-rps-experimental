@@ -16,6 +16,10 @@ App.cube = function(x){
   return x * x * x
 };
 
+App.greet = function(string){
+  return string = typeof string !== 'undefined' ? 'Hello ' + string : "Hello World";
+};
+
 $(document).ready(function(){
   trace('hello world');
 });
