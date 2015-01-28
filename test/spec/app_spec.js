@@ -10,6 +10,7 @@ describe("the application", function() {
   it('will greet you like a good boy',function(){
     expect(App.greet('Jason')).toBe('Hello Jason');
     expect(App.greet()).toBe('Hello World');
+    expect(App.greet('you sexy bastard')).toBe('Hello you sexy bastard');
   });
 });
 
